@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "P8r/QNAbiKLI8aSpjMtSjMq68G1CVrpLmmAxDaCrb8TaDClzfnPTBs2l5rQktce8kyMjX/8NeTBsPh3tP9GgCg==",
+  "success": true,
+  "projectFilePath": "/Users/luannguyen/Desktop/COS20007/2.4P/Iteration1/SwinAdventure/SwinAdventure.csproj",
+  "expectedPackageFiles": [
+    "/Users/luannguyen/.nuget/packages/pythonx86/3.11.2/pythonx86.3.11.2.nupkg.sha512"
+  ],
+  "logs": []
+}

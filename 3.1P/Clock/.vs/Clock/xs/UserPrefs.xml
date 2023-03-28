@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{AF90F7B0-B072-46D5-B8DC-B487F09D20F4}|Default">
+  <MonoDevelop.Ide.ItemProperties.Clock PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TestClock PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestClock/ClockTest.cs">
+    <Files>
+      <File FileName="Clock/Program.cs" Line="14" Column="1" />
+      <File FileName="Clock/Clock.cs" Line="51" Column="35" />
+      <File FileName="Clock/Counter.cs" Line="17" Column="28" />
+      <File FileName="TestClock/UnitTest1.cs" Line="17" Column="12" />
+      <File FileName="TestClock/ClockTest.cs" Line="33" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Clock" expanded="True">
+            <Node name="Clock" expanded="True" />
+            <Node name="TestClock" expanded="True">
+              <Node name="CounterTest.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Clock" expanded="True">
+            <Node name="TestClock" expanded="True">
+              <Node name="CounterTest" expanded="True">
+                <Node name="TestClock" expanded="True" />
+              </Node>
+              <Node name="TestClock" expanded="True">
+                <Node name="TestClock" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

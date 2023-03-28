@@ -1,0 +1,19 @@
+def main():
+    x = input('Input an array:')
+    arr = list(map(float, x.split()))
+    avg = average(arr)
+    compare(avg)
+def average(arr):
+    if len(arr) == 0:
+        return 0
+    total = 0
+    for num in arr:
+        total += num
+    return total / len(arr)
+def compare(x):
+    if x < 10:
+        print('Single digit')
+    else: 
+        print('Double digit')
+
+main()

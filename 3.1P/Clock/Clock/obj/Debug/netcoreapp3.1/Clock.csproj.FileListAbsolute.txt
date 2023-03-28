@@ -1,0 +1,14 @@
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/bin/Debug/netcoreapp3.1/Clock
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/bin/Debug/netcoreapp3.1/Clock.deps.json
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/bin/Debug/netcoreapp3.1/Clock.runtimeconfig.json
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/bin/Debug/netcoreapp3.1/Clock.runtimeconfig.dev.json
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/bin/Debug/netcoreapp3.1/Clock.dll
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/bin/Debug/netcoreapp3.1/Clock.pdb
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/obj/Debug/netcoreapp3.1/Clock.csproj.AssemblyReference.cache
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/obj/Debug/netcoreapp3.1/Clock.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/obj/Debug/netcoreapp3.1/Clock.AssemblyInfoInputs.cache
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/obj/Debug/netcoreapp3.1/Clock.AssemblyInfo.cs
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/obj/Debug/netcoreapp3.1/Clock.csproj.CoreCompileInputs.cache
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/obj/Debug/netcoreapp3.1/Clock.dll
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/obj/Debug/netcoreapp3.1/Clock.pdb
+/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/obj/Debug/netcoreapp3.1/Clock.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+/Users/luannguyen/Desktop/COS20007-2/2.1P/bin/Debug/netcoreapp5.0/2.1P
+/Users/luannguyen/Desktop/COS20007-2/2.1P/bin/Debug/netcoreapp5.0/2.1P.deps.json
+/Users/luannguyen/Desktop/COS20007-2/2.1P/bin/Debug/netcoreapp5.0/2.1P.runtimeconfig.json
+/Users/luannguyen/Desktop/COS20007-2/2.1P/bin/Debug/netcoreapp5.0/2.1P.runtimeconfig.dev.json
+/Users/luannguyen/Desktop/COS20007-2/2.1P/bin/Debug/netcoreapp5.0/2.1P.dll
+/Users/luannguyen/Desktop/COS20007-2/2.1P/bin/Debug/netcoreapp5.0/2.1P.pdb
+/Users/luannguyen/Desktop/COS20007-2/2.1P/obj/Debug/netcoreapp5.0/2.1P.csproj.AssemblyReference.cache
+/Users/luannguyen/Desktop/COS20007-2/2.1P/obj/Debug/netcoreapp5.0/2.1P.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luannguyen/Desktop/COS20007-2/2.1P/obj/Debug/netcoreapp5.0/2.1P.AssemblyInfoInputs.cache
+/Users/luannguyen/Desktop/COS20007-2/2.1P/obj/Debug/netcoreapp5.0/2.1P.AssemblyInfo.cs
+/Users/luannguyen/Desktop/COS20007-2/2.1P/obj/Debug/netcoreapp5.0/2.1P.csproj.CoreCompileInputs.cache
+/Users/luannguyen/Desktop/COS20007-2/2.1P/obj/Debug/netcoreapp5.0/2.1P.dll
+/Users/luannguyen/Desktop/COS20007-2/2.1P/obj/Debug/netcoreapp5.0/refint/2.1P.dll
+/Users/luannguyen/Desktop/COS20007-2/2.1P/obj/Debug/netcoreapp5.0/2.1P.pdb
+/Users/luannguyen/Desktop/COS20007-2/2.1P/obj/Debug/netcoreapp5.0/2.1P.genruntimeconfig.cache
+/Users/luannguyen/Desktop/COS20007-2/2.1P/obj/Debug/netcoreapp5.0/ref/2.1P.dll
