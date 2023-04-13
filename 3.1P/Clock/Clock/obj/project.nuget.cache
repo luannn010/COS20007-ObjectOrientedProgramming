@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+X9vk5IX4EnE0+DJFXBFdEHJB95HaqJXT+pzm5DAP/kjMweS7Fx1zmxu7jjf5jeHnx/SOuLYK7Fa3neLN0ZA0A==",
+  "dgSpecHash": "CX6+Vrb5pISAGTtdBKGxOKafQ1lWMLv7uF2CMU8l1y+3x0T7HIKCPm0wIsIFzPdLD5opYt8qhiNPU+CXhQfbOg==",
   "success": true,
-  "projectFilePath": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/Clock.csproj",
+  "projectFilePath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/Clock.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

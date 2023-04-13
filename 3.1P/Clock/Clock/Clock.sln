@@ -5,7 +5,7 @@ VisualStudioVersion = 25.0.1703.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock.csproj", "{CC7B98B9-0BA5-4117-BD29-97F9C8CF8412}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClock", "..\TestClock\TestClock.csproj", "{0AE0DA0B-9A70-422F-B18B-AC93F88476B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTesting", "..\TestClock\NUnitTesting.csproj", "{0AE0DA0B-9A70-422F-B18B-AC93F88476B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luannguyen/Desktop/COS20007/2.4P/Iteration1/SwinAdventure/SwinAdventure.csproj": {}
+    "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/2.4P/Iteration1/SwinAdventure/SwinAdventure.csproj": {}
   },
   "projects": {
-    "/Users/luannguyen/Desktop/COS20007/2.4P/Iteration1/SwinAdventure/SwinAdventure.csproj": {
+    "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/2.4P/Iteration1/SwinAdventure/SwinAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luannguyen/Desktop/COS20007/2.4P/Iteration1/SwinAdventure/SwinAdventure.csproj",
+        "projectUniqueName": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/2.4P/Iteration1/SwinAdventure/SwinAdventure.csproj",
         "projectName": "SwinAdventure",
-        "projectPath": "/Users/luannguyen/Desktop/COS20007/2.4P/Iteration1/SwinAdventure/SwinAdventure.csproj",
+        "projectPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/2.4P/Iteration1/SwinAdventure/SwinAdventure.csproj",
         "packagesPath": "/Users/luannguyen/.nuget/packages/",
-        "outputPath": "/Users/luannguyen/Desktop/COS20007/2.4P/Iteration1/SwinAdventure/obj/",
+        "outputPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/2.4P/Iteration1/SwinAdventure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/luannguyen/.nuget/NuGet/NuGet.Config"

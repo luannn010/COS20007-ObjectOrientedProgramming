@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/luannguyen/Desktop/COS20007/2.1P/2.1P.csproj",
+      "projectUniqueName": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/2.1P/2.1P.csproj",
       "projectName": "2.1P",
-      "projectPath": "/Users/luannguyen/Desktop/COS20007/2.1P/2.1P.csproj",
+      "projectPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/2.1P/2.1P.csproj",
       "packagesPath": "/Users/luannguyen/.nuget/packages/",
-      "outputPath": "/Users/luannguyen/Desktop/COS20007/2.1P/obj/",
+      "outputPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/2.1P/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/luannguyen/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

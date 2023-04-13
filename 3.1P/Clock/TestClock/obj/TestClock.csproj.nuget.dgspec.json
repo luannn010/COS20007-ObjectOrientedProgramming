@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/TestClock/TestClock.csproj": {}
+    "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/TestClock/TestClock.csproj": {}
   },
   "projects": {
-    "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/Clock.csproj": {
+    "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/Clock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/Clock.csproj",
+        "projectUniqueName": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/Clock.csproj",
         "projectName": "Clock",
-        "projectPath": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/Clock.csproj",
+        "projectPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/Clock.csproj",
         "packagesPath": "/Users/luannguyen/.nuget/packages/",
-        "outputPath": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/obj/",
+        "outputPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/luannguyen/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/TestClock/TestClock.csproj": {
+    "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/TestClock/TestClock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/TestClock/TestClock.csproj",
+        "projectUniqueName": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/TestClock/TestClock.csproj",
         "projectName": "TestClock",
-        "projectPath": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/TestClock/TestClock.csproj",
+        "projectPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/TestClock/TestClock.csproj",
         "packagesPath": "/Users/luannguyen/.nuget/packages/",
-        "outputPath": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/TestClock/obj/",
+        "outputPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/TestClock/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/luannguyen/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/Clock.csproj": {
-                "projectPath": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/Clock.csproj"
+              "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/Clock.csproj": {
+                "projectPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/Clock.csproj"
               }
             }
           }

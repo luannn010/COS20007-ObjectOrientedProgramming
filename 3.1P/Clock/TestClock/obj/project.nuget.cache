@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SqDz7eF3cRxhuU5rrOT8dMu22e+0+7UP/8uSAptr6n8IOvhf7+jNRxkG/jdyO7bb5zVWRiSHbObrDTLe8/lwnw==",
+  "dgSpecHash": "rAgpkpFfgKETMb4EIj69C3TBOqv6nts+kkpt+I1gwpiVcbIlmXcZiANK4yb4IOtMEMBYpxur+msG0SeA6ydxVg==",
   "success": true,
-  "projectFilePath": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/TestClock/TestClock.csproj",
+  "projectFilePath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/TestClock/NUnitTesting.csproj",
   "expectedPackageFiles": [
     "/Users/luannguyen/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
     "/Users/luannguyen/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",

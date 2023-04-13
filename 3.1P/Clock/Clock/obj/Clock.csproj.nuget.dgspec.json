@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/Clock.csproj": {}
+    "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/Clock.csproj": {}
   },
   "projects": {
-    "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/Clock.csproj": {
+    "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/Clock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/Clock.csproj",
+        "projectUniqueName": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/Clock.csproj",
         "projectName": "Clock",
-        "projectPath": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/Clock.csproj",
+        "projectPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/Clock.csproj",
         "packagesPath": "/Users/luannguyen/.nuget/packages/",
-        "outputPath": "/Users/luannguyen/Desktop/COS20007/3.1P/Clock/Clock/obj/",
+        "outputPath": "/Users/luannguyen/Desktop/COS20007/COS20007-ObjectOrientedProgramming/3.1P/Clock/Clock/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/luannguyen/.nuget/NuGet/NuGet.Config"
