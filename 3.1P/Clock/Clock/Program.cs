@@ -8,11 +8,15 @@ namespace ClockTask
         public static void Main(string[] args)
         {
             Clock myClock = new Clock();
-            while (true)
+            int i = 0;
+            while (i < 86400 )
             {
                 myClock.Tick();
                 Console.WriteLine(myClock.Time);
+                i++;
+                
             }
+            Console.ReadLine();
         }
     }
 }

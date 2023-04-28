@@ -1,35 +1,28 @@
 ﻿<Properties StartupConfiguration="{386F89A4-2FE0-4E45-9566-0E8C4229387A}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SwinAdventure PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../TestIdentifiableObject/TestIdentifiableObject.cs">
     <Files>
-      <File FileName="../TestIdentifiableObject/UnitTest1.cs" Line="29" Column="10" />
+      <File FileName="../TestIdentifiableObject/TestIdentifiableObject.cs" Line="61" Column="12" />
+      <File FileName="IdentifiableObject.cs" />
+      <File FileName="Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SwinAdventure" expanded="True">
-            <Node name="NUnitTesting" expanded="True" />
-            <Node name="SwinAdventure" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="SwinAdventure" expanded="True" selected="True">
             <Node name="NUnitTesting" expanded="True">
-              <Node name="NUnitTesting" expanded="True">
-                <Node name="TestIdentifiableObject" expanded="True" />
-              </Node>
+              <Node name="TestIdentifiableObject.cs" selected="True" />
             </Node>
+            <Node name="SwinAdventure" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.SwinAdventure PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
 </Properties>

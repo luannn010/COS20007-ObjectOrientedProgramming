@@ -3,28 +3,31 @@
 
 namespace ClockTask
 {
-    //Counter Class 
+  
+
+   
     public class Counter
     {
+        // Fields
         private int _count;
         private string _name;
-
+        // Constructor
         public Counter(string name)
         {
             _name = name;
             _count = 0;
         }
-        // Increment method
+        // Functions
         public void Increment()
         {
             _count++;
         }
-        // Reset method
+
         public void Reset()
         {
             _count = 0;
         }
-        // Name Property
+       // Properties
         public string Name
         {
             get
@@ -36,10 +39,13 @@ namespace ClockTask
                 _name = value;
             }
         }
-        //Ticks property
+        
         public int Ticks
         {
-            get { return _count; }
+            get
+            {
+                return _count;
+            }
         }
     }
 }

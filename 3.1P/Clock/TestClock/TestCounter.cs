@@ -29,7 +29,7 @@ namespace NUnitTesting
         public void TestCounterIncreaseBy1()
         {
 
-            //Increase counter by 1
+          
 
             testCounter.Increment();
 
@@ -39,7 +39,7 @@ namespace NUnitTesting
         public void TestCounterIncrement()
         {
 
-            //Increase counter by 3
+            
             for (int i = 0; i < 3; i++)
             {
                 testCounter.Increment();
@@ -49,12 +49,12 @@ namespace NUnitTesting
         [Test]
         public void TestCounterReset()
         {
-            //Increase counter by 3
+            
             for (int i = 0; i < 3; i++)
             {
                 testCounter.Increment();
             }
-            //Reset
+            
 
             testCounter.Reset();
             Assert.AreEqual(0, testCounter.Ticks);

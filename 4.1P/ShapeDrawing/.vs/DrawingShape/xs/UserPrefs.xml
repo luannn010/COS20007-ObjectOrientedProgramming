@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{04E723D7-92FD-4DB6-9487-49EDF7F9071E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Drawing.cs">
+    <Files>
+      <File FileName="Program.cs" Line="3" Column="1" />
+      <File FileName="Shape.cs" Line="7" Column="1" />
+      <File FileName="lib/SplashKit.cs" />
+      <File FileName="Drawing.cs" Line="12" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DrawingShape" expanded="True">
+            <Node name="ShapeDrawer" expanded="True">
+              <Node name="Drawing.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ShapeDrawer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
