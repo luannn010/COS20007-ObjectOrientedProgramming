@@ -20,7 +20,7 @@ namespace NUnitTesting
 		
 		public void SetUp()
 		{
-			Infinity_Sword = new Item(new string[] { "Sword" }, "Infinity", "Infinity Sword - Powerfull Sword with flame power in every critical strike");
+			Infinity_Sword = new Item(new string[] { "Sword" }, "Infinity Sword", "Infinity Sword - Powerfull Sword with flame power in every critical strike");
 		}
 		[Test]
 		public void TestItemIdentifiable()
@@ -32,7 +32,7 @@ namespace NUnitTesting
 		[Test]
 		public void TestShortDescription()
 		{
-			Assert.AreEqual("a Infinity sword", Infinity_Sword.ShortDescription);
+			Assert.AreEqual("a Infinity Sword (sword)", Infinity_Sword.ShortDescription);
         }
 
 		[Test]

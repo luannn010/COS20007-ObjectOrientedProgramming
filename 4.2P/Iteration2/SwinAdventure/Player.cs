@@ -23,7 +23,7 @@ namespace SwinAdventure
         {
             get
             {
-                return $"You are {Name}, {base.FullDescription}\nYou are carrying:\n" + _inventory.ItemList;
+                return $"You are {Name}, {base.FullDescription}.\nYou are carrying:\n" + _inventory.ItemList;
             }
         }
 		// Property

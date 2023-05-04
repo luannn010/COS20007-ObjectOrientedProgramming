@@ -11,15 +11,15 @@ namespace NUnitTesting
 {
     [TestFixture]
     public class TestInventory
-	{
-		Inventory inventory;
+    {
+        Inventory inventory;
         Item Infinity_Sword;
         Item Deathman_Plate;
         Item Hp_Portion;
 
         [SetUp]
-		public void SetUp()
-		{
+        public void SetUp()
+        {
             inventory = new Inventory();
             // Items
             Infinity_Sword = new Item(new string[] { "Sword" }, "Infinity", "Infinity Sword - Powerfull Sword with flame power in every critical strike");
@@ -29,41 +29,36 @@ namespace NUnitTesting
             inventory.Put(Infinity_Sword);
             inventory.Put(Deathman_Plate);
         }
-		[Test]
-		public void TestHasItem()
-		{
-            Assert.IsTrue(inventory.HasItem("Sword"), "True");
-		}
+        [Test]
+        public void TestHasItem()
+        {
+            Assert.IsTrue(inventory.HasItem("Sword"));
+        }
         [Test]
         public void TestNoItem()
         {
-            Assert.IsFalse(inventory.HasItem("Portion"), "True");
+            Assert.IsFalse(inventory.HasItem("Portion"));
         }
         [Test]
         public void TestFecthItem()
         {
-            Item fetchSword = inventory.Fetch("Sword");
-
-            Assert.IsNotNull(fetchSword);
-            Assert.AreEqual(Infinity_Sword, fetchSword);
-            Assert.IsTrue(inventory.HasItem("Sword"), "True");
-            Assert.IsTrue(inventory.HasItem("Plate"), "True");
+            Assert.AreEqual(Infinity_Sword, inventory.Fetch("Sword"));
+            Assert.IsTrue(inventory.HasItem("Sword"));
         }
         [Test]
         public void TestTakeItem()
         {
-            inventory.Take("Sword");
-
-            Assert.IsFalse(inventory.HasItem("Sword"), "True");
-            Assert.IsTrue(inventory.HasItem("Plate"), "True");
-            Assert.IsFalse(inventory.HasItem("Portion"), "True");
+            Assert.AreEqual(Infinity_Sword, inventory.Take("Sword"));
+            Assert.IsFalse(inventory.HasItem("Sword"));
+            Assert.IsTrue(inventory.HasItem("Plate"));
+            Assert.IsFalse(inventory.HasItem("Portion"));
 
         }
         [Test]
         public void TestItemList()
         {
-            Assert.AreEqual("a Infinity sword\na Deathman plate\n", inventory.ItemList);
+            Assert.AreEqual("\ta Infinity (sword)\n\ta Deathman (plate)\n", inventory.ItemList);
         }
-	}
+    }
 }
 

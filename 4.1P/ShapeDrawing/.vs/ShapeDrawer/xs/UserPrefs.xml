@@ -6,12 +6,12 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Drawing.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyLine.cs">
     <Files>
-      <File FileName="MyLine.cs" Line="45" Column="57" IsPinned="True" />
-      <File FileName="Program.cs" Line="52" Column="70" />
+      <File FileName="MyLine.cs" Line="58" Column="68" IsPinned="True" />
+      <File FileName="Program.cs" Line="16" Column="10" />
       <File FileName="Drawing.cs" Line="103" Column="2" />
-      <File FileName="Shape.cs" Line="10" Column="5" />
+      <File FileName="Shape.cs" Line="8" Column="26" />
       <File FileName="MyCircle.cs" Line="1" Column="1" />
       <File FileName="MyRectangle.cs" Line="1" Column="1" />
     </Files>
@@ -20,7 +20,7 @@
         <State name="__root__">
           <Node name="ShapeDrawer" expanded="True">
             <Node name="ShapeDrawer" expanded="True">
-              <Node name="Drawing.cs" selected="True" />
+              <Node name="MyLine.cs" selected="True" />
             </Node>
           </Node>
         </State>

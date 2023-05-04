@@ -1,14 +1,12 @@
-﻿using System;
-using SplashKitSDK;
+﻿using SplashKitSDK;
 
 namespace ShapeDrawer
 {
     public class MyLine : Shape
     {
-        //Fields
-        private float _endX, _endY;
+        private float _endX;
+        private float _endY;
 
-        //Properties
         public float EndX
         {
             get
@@ -20,7 +18,6 @@ namespace ShapeDrawer
                 _endX = value;
             }
         }
-
         public float EndY
         {
             get
@@ -33,37 +30,37 @@ namespace ShapeDrawer
             }
         }
 
-        //Constructor
-        public MyLine(Color color, float startX, float startY, float endX, float endY) : base(color)
+        public MyLine(Color color, float startX, float startY, float endX, float endY)
         {
+            Color = color;
             X = startX;
             Y = startY;
             EndX = endX;
             EndY = endY;
         }
 
-        public MyLine() : this(Color.Red, 0, 0, 100, 0) { }
-
-        //Methods
-        public override bool IsAt(Point2D pt)
+        public MyLine() : this(Color.Black, 0, 0, 100, 0)
         {
-            return (pt.X <= X + EndX
-                    && X <= pt.X
-                    && pt.Y <= Y + EndY
-                    && Y <= pt.Y);
         }
 
         public override void Draw()
         {
             if (Selected)
+            {
                 DrawOutLine();
-            SplashKit.DrawLine(Color, X, Y,  EndX, EndY);
+            }
+            SplashKit.DrawLine(Color, X, Y, X + EndX, Y + EndY);
         }
 
         public override void DrawOutLine()
         {
             SplashKit.FillCircle(Color.Black, X, Y, 2);
-            SplashKit.FillCircle(Color.Black,  EndX, EndY, 2);
+            SplashKit.FillCircle(Color.Black, X + EndX, Y + EndY, 2);
+        }
+
+        public override bool IsAt(Point2D pt)
+        {
+            return SplashKit.PointOnLine(pt, SplashKit.LineFrom(X, Y, X + EndX, Y + EndY));
         }
     }
 }

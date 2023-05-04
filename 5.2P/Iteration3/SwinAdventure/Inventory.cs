@@ -1,30 +1,34 @@
 ﻿using System;
 namespace SwinAdventure
 {
-	public class Inventory
-	{
-		private List<Item> _items;
-		public Inventory()
-		{
-			_items = new List<Item>();
-		}
+    public class Inventory
+    {
+        private List<Item> _items;
+
+        public Inventory()
+        {
+            _items = new List<Item>();
+        }
+
         // Check if has Item in Inventory
-		public bool HasItem(string id)
-		{
-			if (_items.Count == 0)
-				return false;
-			foreach (Item item in _items)
-			{
-				if (item.AreYou(id))
-					return true;
-			}
-			return false;
-		}
+        public bool HasItem(string id)
+        {
+            if (_items.Count == 0)
+                return false;
+            foreach (Item item in _items)
+            {
+                if (item.AreYou(id))
+                    return true;
+            }
+            return false;
+        }
+
         // Put Item to Inventory
-		public void Put(Item itm)
-		{
-			_items.Add(itm);
-		}
+        public void Put(Item itm)
+        {
+            _items.Add(itm);
+        }
+
         // Take Item from Inventory
         public Item Take(string id)
         {
@@ -56,10 +60,11 @@ namespace SwinAdventure
         {
             get
             {
-                string list = string.Empty;
+
+                string list = "";
                 foreach (Item item in _items)
                 {
-                    list = list + item.ShortDescription + "\n";
+                    list = list + "\t" + item.ShortDescription + "\n";
                 }
                 return list;
             }

@@ -6,33 +6,31 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.SwinAdventure PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../TestIdentifiableObject/TestPlayer.cs">
     <Files>
-      <File FileName="../TestIdentifiableObject/TestIdentifiableObject.cs" />
-      <File FileName="../TestIdentifiableObject/Usings.cs" />
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="IdentifiableObject.cs" />
-      <File FileName="Game Object.cs" Line="27" Column="4" />
-      <File FileName="Player.cs" Line="26" Column="85" />
-      <File FileName="Inventory.cs" Line="67" Column="38" />
-      <File FileName="../TestIdentifiableObject/TestItem.cs" Line="41" Column="1" />
-      <File FileName="../TestIdentifiableObject/TestInventory.cs" Line="60" Column="52" />
-      <File FileName="../TestIdentifiableObject/TestPlayer.cs" Line="31" Column="12" />
+      <File FileName="../TestIdentifiableObject/Usings.cs" Line="1" Column="1" />
+      <File FileName="IdentifiableObject.cs" Line="10" Column="26" />
+      <File FileName="Game Object.cs" Line="20" Column="4" />
+      <File FileName="Player.cs" Line="26" Column="67" />
+      <File FileName="Inventory.cs" Line="67" Column="21" />
+      <File FileName="../TestIdentifiableObject/TestItem.cs" Line="31" Column="1" />
+      <File FileName="../TestIdentifiableObject/TestInventory.cs" Line="55" Column="1" />
+      <File FileName="../TestIdentifiableObject/TestPlayer.cs" Line="56" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SwinAdventure" expanded="True">
-            <Node name="NUnitTesting" expanded="True" />
-            <Node name="SwinAdventure" expanded="True">
-              <Node name="Player.cs" selected="True" />
+            <Node name="NUnitTesting" expanded="True">
+              <Node name="TestPlayer.cs" selected="True" />
             </Node>
+            <Node name="SwinAdventure" expanded="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="SwinAdventure" expanded="True">
+          <Node name="SwinAdventure" expanded="True" selected="True">
             <Node name="NUnitTesting" expanded="True">
               <Node name="NUnitTesting" expanded="True">
                 <Node name="TestInventory" expanded="True" />
@@ -42,6 +40,9 @@
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

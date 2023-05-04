@@ -57,7 +57,7 @@ namespace NUnitTesting
         [Test]
         public void TestItemList()
         {
-            Assert.AreEqual("\ta Infinity sword\n\ta Deathman plate\n", inventory.ItemList);
+            Assert.AreEqual("\ta Infinity (sword)\n\ta Deathman (plate)\n", inventory.ItemList);
         }
 	}
 }

@@ -3,51 +3,45 @@
 * Unit: COS20007 Object Oriented Programming
 * Institution: Swinburne University of Technology
 */
- using System;
- using System.Collections.Generic;
- using System.Linq;
- using System.Text;
- using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace NUnitTesting
 {
     [TestFixture]
     public class TestItem
-	{
-		Item Infinity_Sword;
+    {
+        Item Infinity_Sword;
 
-		[SetUp]
-		
-		public void SetUp()
-		{
-			Infinity_Sword = new Item(new string[] { "Sword" }, "Infinity", "Infinity Sword - Powerfull Sword with flame power in every critical strike");
+        [SetUp]
 
-		}
-		[Test]
-		public void TestItemIdentifiable()
-		{
-			Assert.IsTrue(Infinity_Sword.AreYou("Sword"), "True");
-			Assert.IsFalse(Infinity_Sword.AreYou("Plate"),"True");
-		}
-		[Test]
-		public void TestShortDescription()
-		{
-			string _expected = "a Infinity sword";
-			string _actual = Infinity_Sword.ShortDescription;
-
-			Assert.AreEqual(_expected, _actual);
-
+        public void SetUp()
+        {
+            Infinity_Sword = new Item(new string[] { "Sword" }, "Infinity Sword", "Infinity Sword - Powerfull Sword with flame power in every critical strike");
         }
-		[Test]
-		public void TestFullDescription()
-		{
-			string _expect = "Infinity Sword - Powerfull Sword with flame power in every critical strike";
-			string _actual = Infinity_Sword.FullDescription;
+        [Test]
+        public void TestItemIdentifiable()
+        {
+            Assert.IsTrue(Infinity_Sword.AreYou("Sword"), "True");
+            Assert.IsFalse(Infinity_Sword.AreYou("Plate"), "True");
+        }
 
-			Assert.AreEqual(_expect, _actual);
+        [Test]
+        public void TestShortDescription()
+        {
+            Assert.AreEqual("a Infinity Sword (sword)", Infinity_Sword.ShortDescription);
+        }
+
+        [Test]
+        public void TestFullDescription()
+        {
+            Assert.AreEqual("Infinity Sword - Powerfull Sword with flame power in every critical strike", Infinity_Sword.FullDescription);
 
         }
 
-	}
+    }
 }
 
