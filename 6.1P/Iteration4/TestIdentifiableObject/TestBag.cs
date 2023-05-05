@@ -31,23 +31,23 @@ namespace NUnitTesting
         public void TestBagLocateItems()
         {
             bag1.Inventory.Put(Infinity_Sword);
-            Assert.AreEqual(bag1.Locate("Sword"), Infinity_Sword);
+            Assert.AreEqual(Infinity_Sword, bag1.Locate("Sword") );
         }
         [Test]
         public void TestBagLocatesItself()
         {
-            Assert.AreEqual(bag1.Locate("bag1"), bag1);
+            Assert.AreEqual(bag1, bag1.Locate("bag1") );
         }
         [Test]
         public void TestBagLocatesNothing()
         {
-            Assert.AreEqual(bag1.Locate("Nothing"), null);
+            Assert.AreEqual(null, bag1.Locate("Nothing") );
         }
         [Test]
         public void TestBagFullDescription()
         {
             bag1.Inventory.Put(Infinity_Sword);
-            Assert.AreEqual("In the Golden Bag you can see:\n\ta Infinity Sword(sword)\n", bag1.FullDescription);
+            Assert.AreEqual(bag1.FullDescription, "In the Golden Bag you can see:\n\ta Infinity Sword(sword)\n");
         }
         [Test]
         public void TestBagInBag()
@@ -57,9 +57,9 @@ namespace NUnitTesting
             bag2.Inventory.Put(Deathman_Plate);
             bag1.Inventory.Put(bag2);
 
-            Assert.AreEqual(bag1.Locate("bag2"), bag2);
-            Assert.AreEqual(bag1.Locate("Sword"), Infinity_Sword);
-            Assert.IsFalse(bag1.Locate("Plate") == Deathman_Plate);
+            Assert.AreEqual(bag2, bag1.Locate("bag2") );
+            Assert.AreEqual(Infinity_Sword, bag1.Locate("Sword") );
+            Assert.AreEqual( null ,bag1.Locate("Plate"));
 
 
         }

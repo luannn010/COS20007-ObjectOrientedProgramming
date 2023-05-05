@@ -20,11 +20,11 @@ public class Mainclass
 
         Console.WriteLine("~~~Wellcome to Neverland~~~");
         Console.WriteLine();
-        Console.WriteLine("\"What is your name, my Lord?\"");
+        Console.WriteLine("What is your name, my Lord?");
         string name = Console.ReadLine();
         Console.WriteLine($"My honor to see you {name}, What is your class?");
         string desc = Console.ReadLine();
-        Console.WriteLine($"Hi {name},{desc}, wellcome to the Guardian Village");
+        Console.WriteLine($"Hi {name},{desc}, Wellcome to the Guardian Village");
         // Assign player
 
         player = new Player(name, desc);
@@ -37,7 +37,7 @@ public class Mainclass
         Deathman_Plate = new Item(new string[] { "Plate" }, "Deathman Plate", "Deathman Plate - Brave like a Captian never surrender");
         Hp_Portion = new Item(new string[] { "Portion" }, "Hp Portion", "Hp Portion - Sweet drink can heal you 150 hp in 20 sec");
 
-        // Assing command
+        // Assign command
         command = new LookCommand();
 
         // Put Items 
@@ -46,7 +46,7 @@ public class Mainclass
         player.Inventory.Put(bag);
         bag.Inventory.Put(Hp_Portion);
 
-        while (input !="")
+        while (input !="quit")
         {
             Console.Write("Command--> ");
             input = Console.ReadLine();

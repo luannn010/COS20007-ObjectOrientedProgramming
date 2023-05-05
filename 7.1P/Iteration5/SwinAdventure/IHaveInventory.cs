@@ -7,7 +7,10 @@ namespace SwinAdventure
         GameObject Locate(string id);
         string Name
         {
-            get;
+            get
+            {
+                return Name;
+            }
         }
     }
 }

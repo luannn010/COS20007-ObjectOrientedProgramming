@@ -1,18 +1,16 @@
 ﻿<Properties StartupConfiguration="{386F89A4-2FE0-4E45-9566-0E8C4229387A}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.SwinAdventure PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="LookCommand.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="49" Column="23" />
+      <File FileName="Program.cs" Line="40" Column="18" />
       <File FileName="../TestIdentifiableObject/TestBag.cs" />
       <File FileName="../TestIdentifiableObject/TestLookCommand.cs" />
-      <File FileName="LookCommand.cs" Line="37" Column="21" />
+      <File FileName="LookCommand.cs" Line="10" Column="49" />
       <File FileName="Bag.cs" />
+      <File FileName="Command.cs" />
+      <File FileName="IHaveInventory.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +18,7 @@
           <Node name="SwinAdventure" expanded="True">
             <Node name="NUnitTesting" expanded="True" />
             <Node name="SwinAdventure" expanded="True">
-              <Node name="LookCommand.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -30,9 +28,10 @@
           <Node name="SwinAdventure" expanded="True" />
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SwinAdventure PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -27,6 +27,7 @@ namespace SwinAdventure
                     item = text[2];
                     if (container.Locate(item) == null)
                         return $"I can't find the {item}";
+
                     break;
                 case 5:
                     if (text[3].ToLower() != "in")
@@ -34,7 +35,6 @@ namespace SwinAdventure
                     container = FetchContainer(p, text[4]);
                     if (container == null)
                         return $"I can\'t find the {text[4]}";
-                    
                     item = text[2];// item id
                     break;
                 default:
@@ -43,6 +43,7 @@ namespace SwinAdventure
 
             return LookAtIn(item, container);
         }
+
 
         private IHaveInventory FetchContainer(Player p, string containerID)
         {

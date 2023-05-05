@@ -11,12 +11,15 @@ namespace SwinAdventure
         {
             IHaveInventory container;
             string item;
-            string err = "Error in look input";
             string lookat = "What do you want to look at?";
             string lookin = "What do you want to look in?";
+            if ( text.Length !=3 && text.Length != 5 )
+            {
+                return "I don't know how to look like that";
+            }
 
             if (text[0].ToLower() != "look")
-                return err;
+                return "Error in look input";
 
             switch (text.Length)
             {
@@ -37,7 +40,7 @@ namespace SwinAdventure
                     item = text[2];// item id
                     break;
                 default:
-                    return err;
+                    return "I don't know how to look like that";
             }
 
             return LookAtIn(item, container);

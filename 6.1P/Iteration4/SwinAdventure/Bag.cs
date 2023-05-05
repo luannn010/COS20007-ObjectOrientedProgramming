@@ -1,40 +1,40 @@
 ﻿using System;
 namespace SwinAdventure
 {
-	public class Bag : Item,IHaveInventory
-	{
-		// Fields
-		private Inventory _inventory;
+    public class Bag : Item,IHaveInventory
+    {
+        // Fields
+        private Inventory _inventory;
 
-		// Property
+        // Property
 
-		public Inventory Inventory
-		{
-			get
-			{
-				return _inventory;
-			}
-		}
+        public Inventory Inventory
+        {
+            get
+            {
+                return _inventory;
+            }
+        }
 
-		// Constructor
-		public Bag(string[] ids, string name, string desc) : base(ids, name, desc)
-		{
-			_inventory = new Inventory();
-		}
+        // Constructor
+        public Bag(string[] ids, string name, string desc) : base(ids, name, desc)
+        {
+            _inventory = new Inventory();
+        }
 
-		public GameObject Locate(string id)
-		{
-			if (this.AreYou(id))
-			{
-				return this;
-			}
-			else if (_inventory.HasItem(id))
-			{
-				return _inventory.Fetch(id);
-			}
-			return null;
+        public GameObject Locate(string id)
+        {
+            if (this.AreYou(id))
+            {
+                return this;
+            }
+            else if (_inventory.HasItem(id))
+            {
+                return _inventory.Fetch(id);
+            }
+            return null;
 
-		}
+        }
 
         public string FullDescription
         {
