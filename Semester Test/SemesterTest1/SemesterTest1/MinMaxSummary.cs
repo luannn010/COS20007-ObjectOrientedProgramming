@@ -6,8 +6,8 @@ namespace SemesterTest1
         // Print Biggest and Smallest
         public override void PrintSummary(List<int> numbers)
         {
-            Console.WriteLine("The Biggest number in your Student ID is: " + Max(numbers) + "\n" +
-                              "The Smallest number in your Student ID is: " + Min(numbers));
+            Console.WriteLine("The Biggest number is: " + Max(numbers) + "\n" +
+                              "The Smallest number is: " + Min(numbers));
         }
         // Method
         public int Max(List<int> numbers)

@@ -39,20 +39,10 @@ namespace SemesterTest1
             this(new AverageSummary(), new List<int>())
         {
         }
-
-        public DataAnalyser(List<int> numbers, SummaryStrategy strategy = null)
+        public DataAnalyser(List<int> numbers)
         {
             _numbers = numbers;
-            if (strategy == null)
-            {
-                _strategy = new AverageSummary();
-            }
-            else
-            {
-                _strategy = strategy;
-            }
         }
-
         // 6 Modify DataAnalyser's Summarise method to use the currently stored strategy instead of relying on a string parameter
         public void Summarise()
         {
