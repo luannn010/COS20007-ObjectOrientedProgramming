@@ -5,11 +5,11 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="MinMaxSummary.cs">
     <Files>
-      <File FileName="AverageSummary.cs" />
-      <File FileName="DataAnalyser.cs" Line="44" Column="32" />
-      <File FileName="MinMaxSummary.cs" Line="16" Column="39" />
-      <File FileName="Program.cs" Line="16" Column="40" />
-      <File FileName="SummaryStrategy.cs" Line="10" Column="1" />
+      <File FileName="AverageSummary.cs" Line="1" Column="1" />
+      <File FileName="DataAnalyser.cs" Line="49" Column="13" />
+      <File FileName="MinMaxSummary.cs" Line="12" Column="18" />
+      <File FileName="SummaryStrategy.cs" />
+      <File FileName="Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

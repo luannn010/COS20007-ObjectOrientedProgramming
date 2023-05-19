@@ -7,7 +7,7 @@ namespace NUnitTesting
 	[TestFixture]
 	public class TestLookCommand
 	{
-		Command look;
+		LookCommand look;
 		Player player;
 		Bag bag;
 		Item Infinity_Sword;
@@ -29,27 +29,27 @@ namespace NUnitTesting
 		[Test]
 		public void TestLookAtMe()
 		{
-			Assert.AreEqual(look.Execute(player, new string[3] { "look", "at", "me" }),$"{player.FullDescription}");
+			Assert.AreEqual(player.FullDescription,look.Execute(player, new string[3] { "look", "at", "me" }));
 		}
 
 		[Test]
 		public void TestLookAtsword()
 		{
 			player.Inventory.Put(Infinity_Sword);
-			Assert.AreEqual($"{Infinity_Sword.FullDescription}", look.Execute(player, new string[] { "look", "at", "sword"}));
+			Assert.AreEqual(Infinity_Sword.FullDescription, look.Execute(player, new string[] { "look", "at", "sword"}));
 		}
 
         [Test]
         public void TestLookAtUnk()
         {
-            Assert.AreEqual($"I can\'t find the plate", look.Execute(player, new string[] { "look", "at", "plate" }));
+            Assert.AreEqual($"I can't find the plate", look.Execute(player, new string[] { "look", "at", "plate" }));
         }
 
 		[Test]
 		public void TestLookAtSwordInMe()
 		{
 			player.Inventory.Put(Infinity_Sword);
-			Assert.AreEqual($"{Infinity_Sword.FullDescription}", look.Execute(player, new string[] { "look", "at", "sword", "in", "me" }));
+			Assert.AreEqual(Infinity_Sword.FullDescription, look.Execute(player, new string[] { "look", "at", "sword", "in", "me" }));
 		}
 		[Test]
 		public void TestLookAtSwordInBag()
@@ -57,14 +57,14 @@ namespace NUnitTesting
 			bag.Inventory.Put(Infinity_Sword);
 			bag.Inventory.Put(Deathman_Plate);
 			player.Inventory.Put(bag);
-			Assert.AreEqual($"{Infinity_Sword.FullDescription}", look.Execute(player, new string[] { "look", "at", "sword", "in", "bag" }) );
+			Assert.AreEqual(Infinity_Sword.FullDescription, look.Execute(player, new string[] { "look", "at", "sword", "in", "bag" }) );
 		}
 
 		[Test]
 		public void TestLookAtSwordInNoBag()
 		{
 			bag.Inventory.Put(Hp_Portion);
-			Assert.AreEqual($"I can\'t find the bag", look.Execute(player, new string[] { "look", "at", "portion", "in", "bag" }));
+			Assert.AreEqual("I can't find the bag", look.Execute(player, new string[] { "look", "at", "portion", "in", "bag" }));
 		}
 
 		[Test]
@@ -72,13 +72,30 @@ namespace NUnitTesting
 		{
             bag.Inventory.Put(Infinity_Sword);
             player.Inventory.Put(bag);
-            Assert.AreEqual($"I can\'t find the plate in Golden Bag", look.Execute(player, new string[] { "look", "at", "plate", "in", "bag" }));
+            Assert.AreEqual("I can't find the plate in Golden Bag", look.Execute(player, new string[] { "look", "at", "plate", "in", "bag" }));
 
         }
 		[Test]
-		public void TestInvalidLookCommand()
+		public void TestInvalidLookCommand1()
 		{
-			Assert.AreEqual("Error in look input",look.Execute(player, new string[] { "hello world" }));
+			Assert.AreEqual("I don't know how to look like that", look.Execute(player, new string[] { "hello world" }));
 		}
+		[Test]
+		public void TestInvalidLookCommand2()
+		{
+			Assert.AreEqual("I don't know how to look like that", look.Execute(player, new string[] { "look around" }));
+		}
+        [Test]
+        public void TestInvalidLookCommand3()
+        {
+            Assert.AreEqual("I don't know how to look like that", look.Execute(player, new string[] { "look at a" }));
+        }
+        [Test]
+        public void TestInvalidLookCommand4()
+        {
+            Assert.AreEqual("I don't know how to look like that", look.Execute(player, new string[] { "look at a at b" }));
+        }
     }
+
+
 }

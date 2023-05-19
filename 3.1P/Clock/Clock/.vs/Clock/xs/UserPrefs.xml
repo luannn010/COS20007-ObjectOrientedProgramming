@@ -3,33 +3,33 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="../TestClock/TestClock.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Clock.cs">
     <Files>
       <File FileName="../TestClock/TestClock.cs" Line="52" Column="10" IsPinned="True" />
-      <File FileName="Program.cs" />
-      <File FileName="Counter.cs" />
-      <File FileName="Clock.cs" />
+      <File FileName="Program.cs" Line="17" Column="17" />
+      <File FileName="Counter.cs" Line="19" Column="10" />
+      <File FileName="Clock.cs" Line="28" Column="33" />
       <File FileName="../TestClock/TestCounter.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Clock" expanded="True">
-            <Node name="Clock" expanded="True" />
-            <Node name="NUnitTesting" expanded="True">
-              <Node name="TestClock.cs" selected="True" />
+            <Node name="Clock" expanded="True">
+              <Node name="Clock.cs" selected="True" />
             </Node>
+            <Node name="NUnitTesting" expanded="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Clock" expanded="True" selected="True" />
+          <Node name="Clock" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

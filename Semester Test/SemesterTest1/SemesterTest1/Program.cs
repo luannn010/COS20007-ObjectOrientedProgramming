@@ -9,13 +9,11 @@ namespace SemesterTest1
         {
             Console.WriteLine("Luan Nguyen 103812143");
 
-            AverageSummary averagestrategy = new AverageSummary();
-            MinMaxSummary minmaxstrategy = new MinMaxSummary();
+
 
             // a. Create a list and set strategy to minmax Strategy
             List<int> numbers = new List<int> { 1, 0, 3, 8, 1, 2, 1, 4, 3 };
-            DataAnalyser analyser = new DataAnalyser(numbers);
-            analyser.Strategy = minmaxstrategy;
+            DataAnalyser analyser = new DataAnalyser(new MinMaxSummary(),numbers);
 
             // b. Call Summary
             analyser.Summarise();
@@ -26,7 +24,7 @@ namespace SemesterTest1
             analyser.AddNumbers(23);
 
             // d. Set the summary strategy to the average strategy
-            analyser.Strategy = averagestrategy;
+            analyser.Strategy = new AverageSummary();
 
             // e. Call Summary
             analyser.Summarise();
