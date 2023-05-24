@@ -12,13 +12,15 @@ namespace SwinAdventure
                 return "I don't know how to look like that";
 
             if (!AreYou(text[0]))
+            {
                 return "Error in look input";
+            }
 
             if (text[1].ToLower() != "at")
             {
                 return "What do you want to look at?";
-
             }
+
             IHaveInventory container = p;
             if (text.Length == 5)
             {
@@ -28,10 +30,11 @@ namespace SwinAdventure
                 container = FetchContainer(p, text[4]);
                 if (container == null)
                     return $"I can't find the {text[4]}";
-
             }
-            return LookAtIn(text[2], container);
 
+            
+
+            return LookAtIn(text[2], container);
         }
 
         private IHaveInventory FetchContainer(Player p, string containerID)
@@ -48,11 +51,12 @@ namespace SwinAdventure
                 {
                     return $"I can't find the {thingID}";
                 }
-                return $"I can't find the {thingID} in {container.Name}";
-
+                else
+                {
+                    return $"I can't find the {thingID} in {container.Name}";
+                }
             }
             return foundItem.FullDescription;
-
         }
     }
 }

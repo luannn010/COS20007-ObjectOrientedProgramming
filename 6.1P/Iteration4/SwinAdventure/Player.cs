@@ -23,11 +23,11 @@ namespace SwinAdventure
         {
             get
             {
-                return $"{Name}, {base.FullDescription}. You are carrying:\n " + _inventory.ItemList;
+                return $"You are {Name}, {base.FullDescription}.\nYou are carrying:\n" + _inventory.ItemList;
             }
         }
-		// Property
-		public Inventory Inventory
+        // Property
+        public Inventory Inventory
 		{
 			get
 			{

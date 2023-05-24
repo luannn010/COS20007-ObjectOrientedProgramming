@@ -76,25 +76,16 @@ namespace NUnitTesting
 
         }
 		[Test]
-		public void TestInvalidLookCommand1()
+		public void TestInvalidLookCommand()
 		{
-			Assert.AreEqual("I don't know how to look like that", look.Execute(player, new string[] { "hello world" }));
-		}
-		[Test]
-		public void TestInvalidLookCommand2()
-		{
-			Assert.AreEqual("I don't know how to look like that", look.Execute(player, new string[] { "look around" }));
-		}
-        [Test]
-        public void TestInvalidLookCommand3()
-        {
-            Assert.AreEqual("I don't know how to look like that", look.Execute(player, new string[] { "look at a" }));
+			Assert.AreEqual("I don't know how to look like that", look.Execute(player, new string[] { "hello", "world" }));
+            Assert.AreEqual("Error in look input", look.Execute(player, new string[] { "search", "for"," b" }));
+            Assert.AreEqual("What do you want to look in?", look.Execute(player, new string[] { "look", "at", "plate", "on", "bag" }));
+            Assert.AreEqual("What do you want to look at?", look.Execute(player, new string[] { "look", "for", "plate" }));
+
+
         }
-        [Test]
-        public void TestInvalidLookCommand4()
-        {
-            Assert.AreEqual("I don't know how to look like that", look.Execute(player, new string[] { "look at a at b" }));
-        }
+
     }
 
 

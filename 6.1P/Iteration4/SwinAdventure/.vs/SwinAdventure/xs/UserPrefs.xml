@@ -5,14 +5,18 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="../TestIdentifiableObject/TestLookCommand.cs">
     <Files>
-      <File FileName="LookCommand.cs" Line="29" Column="39" />
-      <File FileName="IHaveInventory.cs" />
-      <File FileName="Bag.cs" />
-      <File FileName="../TestIdentifiableObject/TestBag.cs" />
-      <File FileName="../TestIdentifiableObject/TestLookCommand.cs" Line="45" Column="53" />
+      <File FileName="../../../3.3P/ShapeDrawing/Shape.cs" Line="1" Column="1" />
+      <File FileName="IHaveInventory.cs" Line="13" Column="2" />
+      <File FileName="../TestIdentifiableObject/TestBag.cs" Line="1" Column="1" />
+      <File FileName="../TestIdentifiableObject/TestLookCommand.cs" Line="84" Column="58" />
+      <File FileName="LookCommand.cs" Line="21" Column="53" />
       <File FileName="../TestIdentifiableObject/TestInventory.cs" />
-      <File FileName="Player.cs" Line="10" Column="33" />
+      <File FileName="Player.cs" />
       <File FileName="IdentifiableObject.cs" />
+      <File FileName="Bag.cs" />
+      <File FileName="Item.cs" />
+      <File FileName="Game Object.cs" />
+      <File FileName="Inventory.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,7 +31,13 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="SwinAdventure" expanded="True" />
+          <Node name="SwinAdventure" expanded="True">
+            <Node name="NUnitTesting" expanded="True">
+              <Node name="NUnitTesting" expanded="True">
+                <Node name="TestLookCommand" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

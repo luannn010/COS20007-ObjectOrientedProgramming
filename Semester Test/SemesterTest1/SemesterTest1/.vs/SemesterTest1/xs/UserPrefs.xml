@@ -3,11 +3,11 @@
   <MonoDevelop.Ide.ItemProperties.SemesterTest1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MinMaxSummary.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="AverageSummary.cs" Line="1" Column="1" />
-      <File FileName="DataAnalyser.cs" Line="49" Column="13" />
-      <File FileName="MinMaxSummary.cs" Line="12" Column="18" />
+      <File FileName="AverageSummary.cs" />
+      <File FileName="DataAnalyser.cs" />
+      <File FileName="MinMaxSummary.cs" />
       <File FileName="SummaryStrategy.cs" />
       <File FileName="Program.cs" Line="1" Column="1" />
     </Files>
@@ -16,7 +16,7 @@
         <State name="__root__">
           <Node name="SemesterTest1" expanded="True">
             <Node name="SemesterTest1" expanded="True">
-              <Node name="MinMaxSummary.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
