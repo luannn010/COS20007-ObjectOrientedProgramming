@@ -5,11 +5,11 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="../TestIdentifiableObject/TestLookCommand.cs">
     <Files>
-      <File FileName="../../../3.3P/ShapeDrawing/Shape.cs" Line="1" Column="1" />
-      <File FileName="IHaveInventory.cs" Line="13" Column="2" />
-      <File FileName="../TestIdentifiableObject/TestBag.cs" Line="1" Column="1" />
-      <File FileName="../TestIdentifiableObject/TestLookCommand.cs" Line="84" Column="58" />
-      <File FileName="LookCommand.cs" Line="21" Column="53" />
+      <File FileName="../../../3.3P/ShapeDrawing/Shape.cs" />
+      <File FileName="IHaveInventory.cs" />
+      <File FileName="../TestIdentifiableObject/TestBag.cs" />
+      <File FileName="../TestIdentifiableObject/TestLookCommand.cs" Line="93" Column="1" />
+      <File FileName="LookCommand.cs" />
       <File FileName="../TestIdentifiableObject/TestInventory.cs" />
       <File FileName="Player.cs" />
       <File FileName="IdentifiableObject.cs" />
